@@ -1,0 +1,129 @@
+html{
+    font-size:1rem;
+}
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background-color: black;  
+    padding:1rem; 
+}
+nav ul{
+    color: #f5c518;
+    display:flex;
+    margin:0 auto;
+    padding: 0 ;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+nav ul li a{
+    color: #f5c518;
+    padding:10px;
+    text-decoration: none;
+    
+}
+nav ul li a:hover :visited {
+    text-decoration:underline;
+    color:white;
+}
+
+h1 {
+    font-size:4rem;
+    margin-bottom: 0rem;
+}
+
+@media (max-width:450px){
+    h1{
+        font-size:3.5rem;
+        line-height: 1.2;
+    }
+}
+
+#main {
+    margin:30px 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background:#f5c518;
+    text-align:center;
+}
+@media (max-width:450px){
+    #main{
+        margin:0;
+    }
+}
+
+
+img{
+    max-width: 100%;
+    display: block;
+    height:auto;
+    margin:0 auto;
+}
+
+#img-div {
+    align-self: center;
+    background:white;
+    padding: 3rem;
+    margin:0;
+}
+
+#img-caption{
+    margin:15px 0  5px 0 
+}
+
+#about{
+    margin:3rem;
+}
+
+#movies{
+    margin: 3rem;
+    padding:0 ;
+}
+
+
+
+ul{
+    max-width: 500px;
+    margin:0 auto 50px auto;
+    text-align:left;
+    line-height: 2.5 ;
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#moviesarea {
+    margin:30px 15px;
+    padding:5px;
+    border-radius:5px;
+    background-color: #f5c518;
+}
+
+footer{
+    
+    background-color: black;  
+    padding:1rem; 
+
+}
+
+footer a{
+    color:#f5c518;
+    text-decoration:none;
+}
+footer a:hover{
+    text-decoration:underline;
+}
+
+#filmcolor{
+    color: #181714;
+}
+
